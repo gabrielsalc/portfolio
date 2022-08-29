@@ -3,20 +3,20 @@ import aboutpic from "./components/Access/mePhoto.jpg"
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
-  title: 'JS.',
+  title: 'Home',
 }
 
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Gabriel Salcedo',
+  role: 'Back-End/Front-End Developer',
   description:
-    'UW bootcamp student.originally from Taiwan now living in Seattle, USA. highly interested in cutting edge technology, coding and biology.',
-  resume: 'https://example.com',
+    'Full Stack developer from Argentina',
+  resume: 'https://drive.google.com/file/d/1R8n5vOD3wt2SsEeWvwRpJxkhYUGkBNio/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/gabsalel/',
+    github: 'https://github.com/gabrielsalc',
   },
 }
 
@@ -24,12 +24,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Movie Tracker',
+    name: 'React MundosE Project',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
-    sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
+      'Page that i did during the Full Stack Course',
+    stack: ['React', 'Html', 'CSS-SASS-Bootstrap'],
+    sourceCode: 'https://github.com/gabrielsalc/proyectoMundosE',
+    livePreview: 'https://frontmundose.herokuapp.com/',
   },
   {
     name: 'Event Planner',
@@ -54,22 +54,18 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
-  'JavaScript',
-  'TypeScript',
-  'Express',
-  'MySQL',
-  'MongoDB',
-  'React',
-  'Redux',
   'SASS',
-  'Material UI',
+  'JavaScript',
+  'React',
+  'PHP',
+  'Laravel',
+  'MySQL',
   'Git',
-  'MERN',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'gabrielsalcedo.gs@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

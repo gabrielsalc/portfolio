@@ -3,6 +3,10 @@
   margin-top: 3em;
 }
 
+#myphoto {
+  border-radius: 5px;
+}
+
 .about__name {
   color: var(--clr-primary);
 }
