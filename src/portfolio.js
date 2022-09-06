@@ -26,27 +26,31 @@ const projects = [
   {
     name: 'React MundosE Project',
     description:
-      'Page that i did during the Full Stack Course',
+      'Practice react one scroll page, it was a part of two, this is the front end, a page that is like a tourism agency',
     stack: ['React', 'Html', 'CSS-SASS-Bootstrap'],
     sourceCode: 'https://github.com/gabrielsalc/proyectoMundosE',
     livePreview: 'https://frontmundose.herokuapp.com/',
   },
   {
-    name: 'Event Planner',
+    name: 'Laravel MundosE Project',
     description:
-      'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
-  },
-  {
-    name: 'Resource Planner',
-    description:
-      'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+      'This is the second part of the previous project, this is an api that process incoming messages and load it to the data base, send me an email and a little front end to show incoming messages',
+    stack: ['Laravel-Php', 'Html', 'CSS', 'Mysql'],
+    sourceCode: 'https://github.com/gabrielsalc/MundosEBackend',
+    livePreview: 'https://proyectomundose.herokuapp.com/mensajes',
+},
+{
+  name: 'Crud poo php',
+  description: 'Just a CRUD with Php and some Javascripts. It was my first project that has a variety of controls and secure connections to the database',
+  stack: ['Php', 'Html', 'CSS', 'Javascript','Mysql'],
+  sourceCode: 'https://github.com/gabrielsalc/crudphppuro',
+},
+{
+  name: 'Spotify Like App',
+  description: 'This was my first App, is a Spotify-like web that has a few songs, a search bar, cookies and users. It was made with plain php',
+  stack: ['Php', 'Html', 'CSS', 'Mysql'],
+  sourceCode: 'https://github.com/gabrielsalc/practica-php',
+},
 ]
 
 const skills = [
