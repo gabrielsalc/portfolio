@@ -2,7 +2,7 @@ import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
+  homepage: 'https://gabsalel.up.railway.app/',
   title: 'Home',
 }
 
@@ -10,9 +10,9 @@ const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Gabriel Salcedo',
-  role: 'Back-End/Front-End Developer',
+  role: 'Software Developer',
   description:
-    'Full Stack developer from Argentina',
+    'With 1+ years working experience creating and maintaining desktop apps with Delphi and PostgreSQL, also having knowledge and some experience with web apps, I am ready for every challenge that is putted on my way',
   resume: 'https://drive.google.com/file/d/1R8n5vOD3wt2SsEeWvwRpJxkhYUGkBNio/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/gabsalel/',
@@ -34,7 +34,7 @@ const projects = [
   {
     name: 'Laravel MundosE Project',
     description:
-      'This is the second part of the previous project, this is an api that process incoming messages and load it to the data base, send me an email and a little front end to show incoming messages',
+      'This is the second part of the previous project, this is an api that process incoming messages and load it to the data base, also have a little front end to show incoming messages',
     stack: ['Laravel-Php', 'Html', 'CSS', 'Mysql'],
     sourceCode: 'https://github.com/gabrielsalc/MundosEBackend',
     livePreview: 'https://proyectomundose.herokuapp.com/mensajes',
@@ -56,6 +56,9 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
+  'Delphi 6',
+  'Delphi 11',
+  'PostgreSQL',
   'HTML',
   'CSS',
   'SASS',
