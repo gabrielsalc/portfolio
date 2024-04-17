@@ -13,7 +13,7 @@ const about = {
   role: 'Software Developer',
   description:
     'With 1+ years working experience creating and maintaining desktop apps with Delphi and PostgreSQL, also having knowledge and some experience with web apps, I am ready for every challenge that is putted on my way',
-  resume: 'https://drive.google.com/file/d/1R8n5vOD3wt2SsEeWvwRpJxkhYUGkBNio/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1xGFzsNKcx3TFpNjL4HlZ7hw08iOxIKXo/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/gabsalel/',
     github: 'https://github.com/gabrielsalc',
@@ -24,12 +24,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Itec Cardiología',
+    description:
+      'Itec Cardiologia, simple web to get an appointment at the hospital and visualize studies and more. Hosted on my Own VPS.',
+    stack: ['HTML', 'PHP', 'Css'],
+    sourceCode: 'https://github.com/gabrielsalc/ItecConsultorios',
+    livePreview: 'https://iteccardiologia.com.ar',
+  },
+  {
     name: 'React MundosE Project',
     description:
       'Practice react one scroll page, it was a part of two, this is the front end, a page that is like a tourism agency',
     stack: ['React', 'Html', 'CSS-SASS-Bootstrap'],
     sourceCode: 'https://github.com/gabrielsalc/proyectoMundosE',
-    livePreview: 'https://frontmundose.herokuapp.com/',
+    // livePreview: 'https://frontmundose.herokuapp.com/',
   },
   {
     name: 'Laravel MundosE Project',
@@ -37,7 +45,7 @@ const projects = [
       'This is the second part of the previous project, this is an api that process incoming messages and load it to the data base, also have a little front end to show incoming messages',
     stack: ['Laravel-Php', 'Html', 'CSS', 'Mysql'],
     sourceCode: 'https://github.com/gabrielsalc/MundosEBackend',
-    livePreview: 'https://proyectomundose.herokuapp.com/mensajes',
+    // livePreview: 'https://proyectomundose.herokuapp.com/mensajes',
 },
 {
   name: 'Crud poo php',
@@ -56,12 +64,10 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'Delphi 6',
-  'Delphi 11',
+  'Delphi',
   'PostgreSQL',
   'HTML',
   'CSS',
-  'SASS',
   'JavaScript',
   'React',
   'PHP',
